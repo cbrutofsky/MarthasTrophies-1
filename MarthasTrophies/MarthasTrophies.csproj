@@ -91,6 +91,7 @@
     <Compile Include="Models\Cart.cs" />
     <Compile Include="Models\OrderDetails.cs" />
     <Compile Include="Models\MarthasTrophiesEntities.cs" />
+    <Compile Include="Controllers\StoreController.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\Web.config" />
