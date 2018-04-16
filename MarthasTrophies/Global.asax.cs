@@ -9,6 +9,7 @@ namespace MarthasTrophies
     {
         protected void Application_Start()
         {
+            //System.Data.Entity.Database.SetInitializer(new MarthasTrophies.Models.);
             AreaRegistration.RegisterAllAreas();
             GlobalConfiguration.Configure(WebApiConfig.Register);
             RouteConfig.RegisterRoutes(RouteTable.Routes);
